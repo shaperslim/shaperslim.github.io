@@ -13,7 +13,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '699741774026510');
 fbq('track', 'PageView');
-fbq('track', 'Purchase');
+fbq('track', 'Purchase', {value: 25.00, currency: 'BRL'});
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=699741774026510&ev=PageView&noscript=1"
